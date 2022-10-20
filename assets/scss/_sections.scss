@@ -202,7 +202,7 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us {
+.students {
 
   .box {
     padding: 50px 30px;
@@ -245,11 +245,11 @@ section {
 
 
 /*--------------------------------------------------------------
-# Menu Section
+# program Section
 --------------------------------------------------------------*/
-.menu {
+.program {
 
-  #menu-flters {
+  #program-flters {
     padding:0;
     margin:0 auto 0 auto;
     list-style:none;
@@ -279,18 +279,18 @@ section {
     }
   }
 
-  .menu-item {
+  .program-item {
     margin-top: 50px;
   }
 
-  .menu-img {
+  .program-img {
     width: 70px;
     border-radius: 50%;
     float: left;
     border: 5px solid rgba(white, .2);
   }
 
-  .menu-content {
+  .program-content {
     margin-left: 85px;
     overflow: hidden;
     display: flex;
@@ -333,7 +333,7 @@ section {
     }
   }
 
-  .menu-ingredients {
+  .program-ingredients {
     margin-left: 85px;
     font-style: italic;
     font-size: 14px;
@@ -700,9 +700,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs
+# directors
 --------------------------------------------------------------*/
-.chefs {
+.directors {
 
   .member {
     text-align: center;
