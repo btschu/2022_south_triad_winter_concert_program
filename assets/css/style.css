@@ -759,7 +759,7 @@ section {
   background: rgb(28, 28, 28);
   position: relative;
   z-index: 3;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   transition: 0.3s;
 }
@@ -772,8 +772,8 @@ section {
   background: rgb(28, 28, 28);
   position: relative;
   z-index: 3;
-  padding: 0 10px;
-  font-weight: 500;
+  padding: 0 0 0 10px;
+  font-weight: 400;
   color: #cda45e;
 }
 
