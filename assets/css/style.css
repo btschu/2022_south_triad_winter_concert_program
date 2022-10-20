@@ -326,7 +326,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: rgb(28, 28, 28);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -335,7 +335,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: rgb(28, 28, 28);
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
@@ -759,7 +759,7 @@ section {
   background: rgb(28, 28, 28);
   position: relative;
   z-index: 3;
-  font-weight: 700;
+  font-weight: 600;
   color: white;
   transition: 0.3s;
 }
@@ -773,7 +773,7 @@ section {
   position: relative;
   z-index: 3;
   padding: 0 10px;
-  font-weight: 600;
+  font-weight: 500;
   color: #cda45e;
 }
 
