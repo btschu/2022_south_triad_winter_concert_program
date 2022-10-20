@@ -44,7 +44,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: rgb(39, 38, 38);
+  background: rgb(28, 28, 28);
 }
 
 #preloader:before {
@@ -52,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(39, 38, 38);
+  border: 6px solid rgb(28, 28, 28);
   border-top-color: #cda45e;
   border-bottom-color: #cda45e;
   border-radius: 50%;
@@ -107,7 +107,7 @@ h6 {
 
 .back-to-top:hover {
   background: #cda45e;
-  color: rgb(39, 38, 38);
+  color: rgb(28, 28, 28);
 }
 
 .back-to-top:hover i {
@@ -335,7 +335,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: rgb(39, 38, 38);
+  color: rgb(28, 28, 28);
 }
 
 .navbar-mobile a:hover,
@@ -602,7 +602,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(39, 38, 38);
+  background-color: rgb(28, 28, 28);
 }
 
 .section-title {
@@ -646,7 +646,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: rgb(39, 38, 38);
+  background: rgb(28, 28, 28);
   margin: 0 20px 0 20px;
 }
 
@@ -698,6 +698,7 @@ section {
 .program #program-flters li {
   cursor: pointer;
   display: inline-block;
+  /* border: 1px solid #fff; */
   padding: 8px 12px 10px 12px;
   font-size: 16px;
   font-weight: 500;
@@ -705,7 +706,8 @@ section {
   color: #fff;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
-  border-radius: 50px;
+  /* text-decoration: underline; */
+  border-radius: 5px;
   font-family: "Playfair Display", serif;
 }
 
@@ -723,15 +725,17 @@ section {
 }
 
 .program .program-content {
-  /* margin-left: 85px; */
+  /* margin-left: 300px; */
+  /* margin: 0 auto; */
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   position: relative;
+
 }
 
 .program .program-content::after {
-  content: "......................................................................""....................................................................""....................................................................";
+  content: "......................................................................""....................................................................""....................................................................""....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -743,7 +747,7 @@ section {
 
 .program .program-content a {
   padding-right: 10px;
-  background: rgb(39, 38, 38);
+  background: rgb(28, 28, 28);
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -756,7 +760,7 @@ section {
 }
 
 .program .program-content span {
-  background: rgb(39, 38, 38);
+  background: rgb(28, 28, 28);
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -765,7 +769,8 @@ section {
 }
 
 .program .program-ingredients {
-  margin-left: 20px;
+  /* margin-left: 320px; */
+  margin-left: 40px;
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
