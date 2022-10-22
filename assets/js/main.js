@@ -182,9 +182,9 @@
         layoutMode: 'fitRows'
       });
 
-      let programFilters = select('#program-flters li', true);
+      let programFilters = select('#program-filters li', true);
 
-      on('click', '#program-flters li', function(e) {
+      on('click', '#program-filters li', function(e) {
         e.preventDefault();
         programFilters.forEach(function(el) {
           el.classList.remove('filter-active');
