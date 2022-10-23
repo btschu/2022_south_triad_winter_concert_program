@@ -147,7 +147,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -164,6 +164,11 @@ h6 {
 #header .logo img {
   max-height: 40px;
 }
+
+/* @media (max-width: 500px) {
+  #header .logo h1 {
+    font-size: 20px;
+  } */
 
 /*--------------------------------------------------------------
 # Navigation program
@@ -406,18 +411,19 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 110px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
   #hero .container {
-    padding-top: 98px;
+    padding-top: 50px;
   }
 }
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -642,6 +648,39 @@ section {
 /*--------------------------------------------------------------
 # Students Section
 --------------------------------------------------------------*/
+.students #students-filters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.students #students-filters li {
+  cursor: pointer;
+  display: inline-block;
+  /* border: 1px solid #fff; */
+  padding: 8px 12px 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  /* text-decoration: underline; */
+  border-radius: 5px;
+  font-family: "Playfair Display", serif;
+}
+
+.students #students-filters li:hover,
+.students #students-filters li.filter-active-students {
+  color: #cda45e;
+}
+
+.students #students-filters li:last-child {
+  margin-right: 0;
+}
+
 .students .box {
   padding: 50px 30px;
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
@@ -704,6 +743,11 @@ section {
   padding: 80px 0;
 } */
 
+#program h2 span {
+  color: #cda45e;
+  font-family: "Playfair Display", serif;
+}
+
 .card {
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
   background: rgba(120, 115, 115, 0.2) !important;
@@ -723,7 +767,7 @@ section {
   cursor: pointer;
   display: inline-block;
   /* border: 1px solid #fff; */
-  padding: 8px 12px 10px 12px;
+  padding: 8px 12px 0 12px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -806,6 +850,39 @@ section {
 /*--------------------------------------------------------------
 # Directors
 --------------------------------------------------------------*/
+.directors #directors-filters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.directors #directors-filters li {
+  cursor: pointer;
+  display: inline-block;
+  /* border: 1px solid #fff; */
+  padding: 8px 12px 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  /* text-decoration: underline; */
+  border-radius: 5px;
+  font-family: "Playfair Display", serif;
+}
+
+.directors #directors-filters li:hover,
+.directors #directors-filters li.filter-active-directors {
+  color: #cda45e;
+}
+
+.directors #directors-filters li:last-child {
+  margin-right: 0;
+}
+
 .directors .member {
   text-align: center;
   margin: 0 20px 20px 20px;
@@ -923,4 +1000,9 @@ section {
   font-weight: 300;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+}
+
+#logo {
+  height: 150px;
+  border-radius: 16px;
 }

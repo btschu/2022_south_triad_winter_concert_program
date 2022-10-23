@@ -201,6 +201,66 @@
     }
 
   });
+  /**
+   * students isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let studentsContainer = select('.students-container');
+    if (studentsContainer) {
+      let studentsIsotope = new Isotope(studentsContainer, {
+        itemSelector: '.students-item',
+        layoutMode: 'fitRows'
+      });
+
+      let studentsFilters = select('#students-filters li', true);
+
+      on('click', '#students-filters li', function(e) {
+        e.preventDefault();
+        studentsFilters.forEach(function(el) {
+          el.classList.remove('filter-active-students');
+        });
+        this.classList.add('filter-active-students');
+
+        studentsIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        studentsIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+  /**
+   * directors isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let directorsContainer = select('.directors-container');
+    if (directorsContainer) {
+      let directorsIsotope = new Isotope(directorsContainer, {
+        itemSelector: '.directors-item',
+        layoutMode: 'fitRows'
+      });
+
+      let directorsFilters = select('#directors-filters li', true);
+
+      on('click', '#directors-filters li', function(e) {
+        e.preventDefault();
+        directorsFilters.forEach(function(el) {
+          el.classList.remove('filter-active-directors');
+        });
+        this.classList.add('filter-active-directors');
+
+        directorsIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        directorsIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
 
   /**
    * Initiate glightbox 
