@@ -44,7 +44,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: rgb(28, 28, 28);
+  background: rgb(60, 58, 58);
 }
 
 #preloader:before {
@@ -52,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(28, 28, 28);
+  border: 6px solid rgb(60, 58, 58);
   border-top-color: #cda45e;
   border-bottom-color: #cda45e;
   border-radius: 50%;
@@ -107,7 +107,7 @@ h6 {
 
 .back-to-top:hover {
   background: #cda45e;
-  color: rgb(28, 28, 28);
+  color: rgb(60, 58, 58);
 }
 
 .back-to-top:hover i {
@@ -331,7 +331,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(60, 58, 58);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -608,7 +608,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(60, 58, 58);
 }
 
 .section-title {
@@ -684,7 +684,7 @@ section {
 .students .box {
   padding: 50px 30px;
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
-  background: rgba(120, 115, 115, 0.2) !important;
+  background: rgb(60, 58, 58) !important;
   border-radius: 16px !important;
   transition: all ease-in-out 0.3s;
   margin: 0 20px 0 20px;
@@ -805,7 +805,7 @@ section {
 .program .program-content::after {
   content: "......................................................................""....................................................................""....................................................................""....................................................................";
   position: absolute;
-  background: rgb(28, 28, 28);
+  background: rgb(60, 58, 58);
   left: 20px;
   right: 0;
   top: -4px;
@@ -816,7 +816,7 @@ section {
 
 .program .program-content a {
   padding-right: 10px;
-  background: rgb(28, 28, 28);
+  background: rgb(60, 58, 58);
   position: relative;
   z-index: 3;
   font-weight: 500;
@@ -829,7 +829,7 @@ section {
 }
 
 .program .program-content span {
-  background: rgb(28, 28, 28);
+  background: rgb(60, 58, 58);
   position: relative;
   z-index: 3;
   padding: 0 0 0 10px;
@@ -844,7 +844,7 @@ section {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
-  background: rgb(28, 28, 28);
+  background: rgb(60, 58, 58);
 }
 
 /*--------------------------------------------------------------
