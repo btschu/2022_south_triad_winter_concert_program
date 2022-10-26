@@ -900,6 +900,7 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 16px;
+  /* height: 150px */
   /* border-radius: 50%; */
 }
 
