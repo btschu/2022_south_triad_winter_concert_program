@@ -648,6 +648,12 @@ section {
 /*--------------------------------------------------------------
 # Students Section
 --------------------------------------------------------------*/
+#students {
+  background: url("../img/about-bg4.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
 #students h4 {
   color: #cda45e; 
   font-size: 20px;
@@ -744,13 +750,6 @@ section {
   background-size: cover;
   position: relative;
   padding: 0;
-} */
-
-/* .students {
-  background: url("../img/about-bg.jpg") center center;
-  background-size: cover;
-  position: relative;
-  padding: 80px 0;
 } */
 
 #program h2 span {
@@ -860,6 +859,13 @@ section {
 /*--------------------------------------------------------------
 # Directors
 --------------------------------------------------------------*/
+#directors {
+  background: url("../img/about-bg.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
 .directors #directors-filters {
   padding: 0;
   margin: 0 auto 0 auto;
