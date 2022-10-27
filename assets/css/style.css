@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: black;
   color: #fff;
 }
 
@@ -648,14 +648,15 @@ section {
 /*--------------------------------------------------------------
 # Students Section
 --------------------------------------------------------------*/
-#students {
+/* #students {
   background: url("../img/students-bg.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
-}
+} */
+
 #students h4 {
-  color: #cda45e; 
+  /* color: #cda45e;  */
   font-size: 20px;
   font-family: "Playfair Display", serif;
   text-decoration: underline;
@@ -677,7 +678,7 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  /* color: #fff; */
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   /* text-decoration: underline; */
@@ -696,6 +697,7 @@ section {
 
 .students .box {
   padding: 20px;
+  margin: 0 30px 30px 30px;
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
   background: rgb(60, 58, 58) !important;
   border-radius: 16px !important;
@@ -759,7 +761,7 @@ section {
 
 .card {
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
-  background: rgba(120, 115, 115, 0.2) !important;
+  background: black !important;
   border-radius: 16px !important;
   /* border: 1px solid rgba(255, 255, 255, 0.589) !important; */
 }
@@ -814,7 +816,7 @@ section {
 .program .program-content::after {
   content: "......................................................................""....................................................................""....................................................................""....................................................................";
   position: absolute;
-  background: rgb(60, 58, 58);
+  background: black;
   left: 20px;
   right: 0;
   top: -4px;
@@ -825,7 +827,7 @@ section {
 
 .program .program-content a {
   padding-right: 10px;
-  background: rgb(60, 58, 58);
+  background: black;
   position: relative;
   z-index: 3;
   font-weight: 500;
@@ -838,7 +840,7 @@ section {
 }
 
 .program .program-content span {
-  background: rgb(60, 58, 58);
+  background: black;
   position: relative;
   z-index: 3;
   padding: 0 0 0 10px;
@@ -853,7 +855,7 @@ section {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
-  background: rgb(60, 58, 58);
+  background: black;
 }
 
 /*--------------------------------------------------------------
