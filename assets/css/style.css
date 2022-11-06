@@ -653,10 +653,10 @@ section {
 # Students Section
 --------------------------------------------------------------*/
 /* #students {
-  background: url("../img/students-bg.jpg") center center;
-  background-size: cover;
-  position: relative;
-  padding: 80px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 } */
 
 #students h4 {
