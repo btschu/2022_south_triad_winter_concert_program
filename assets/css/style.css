@@ -612,7 +612,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(85, 84, 84);
+  background-color: #242526;
 }
 
 .section-title {
@@ -705,9 +705,10 @@ section {
   padding: 20px;
   text-align: center;
   margin: 0 30px 30px 30px;
+  /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); */
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
-  background: black !important;
-  border-radius: 16px !important;
+  /* background: black !important; */
+  /* border-radius: 16px !important; */
   transition: all ease-in-out 0.3s;
 }
 
