@@ -428,7 +428,7 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 1000;
   line-height: 56px;
   color: #fff;
   font-family: fantasy;
@@ -647,7 +647,7 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 700;
   font-family: fantasy;
   color: #cda45e;
@@ -1022,13 +1022,13 @@ section {
 #footer {
   background: black;
   border-top: 1px solid #37332a;
-  padding: 60px 0 60px 0;
+  padding: 60px 20px;
   line-height: 1;
 }
 
 #footer h3 {
   font-family: cursive;
-  font-size: 24px;
+  font-size: 44px;
 }
 
 #logo img{
