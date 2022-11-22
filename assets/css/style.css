@@ -1035,3 +1035,8 @@ section {
   height: 150px;
   border-radius: 16px;
 }
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
