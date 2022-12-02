@@ -450,6 +450,7 @@ h6 {
 
 #hero .btns {
   margin-top: 30px;
+  justify-content: center;
 }
 
 #hero .btn-program,
@@ -474,7 +475,11 @@ h6 {
 }
 
 #hero .btn-book {
-  margin-left: 15px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #hero .play-btn {
